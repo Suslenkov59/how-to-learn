@@ -67,6 +67,7 @@
   text-decoration: none;
   position: absolute;
   z-index: 4;
+  padding-left: 5px;
 }
 
 .header__main-illustration {
@@ -338,7 +339,7 @@
   justify-content: space-between;
   width: 90%;
   padding: 60px 0 40px 0;
-  margin-right: 0;
+  margin: 0 auto;
   min-height : 350px;
 }
 
@@ -379,7 +380,6 @@
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -391,12 +391,21 @@
 }
 
 .footer__column-link {
+  color: white;
+  text-decoration: none;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  align-items: center;
 }
 
 .footer__social-icon{
   color: white;
   text-decoration: none;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items:center;
+  padding-right: 10px;
 }
