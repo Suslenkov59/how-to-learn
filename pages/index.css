@@ -56,3 +56,20 @@
 @import url(../content/techniques/cards/__item/cards__item.css);
 @import url(../content/techniques/cards/__title/cards__title.css);
 @import url(../content/techniques/cards/description/cards__description.css);
+/*video*/
+@import url(../content/video/video.css);
+@import url(../content/video/__iframe/video__iframe.css);
+@import url(../content/video/__iframes/video__iframes.css);
+/*oakley*/
+@import url(../content/oakley/oakley.css);
+/*khan*/
+@import url(../content/khan/khan.css);
+@import url(../content/khan/__author/khan__author.css);
+@import url(../content/khan/__book-container/khan__book-container.css);
+@import url(../content/khan/__book-pic/khan__book-pic.css);
+@import url(../content/khan/__buy-link/khan__buy-link.css);
+@import url(../content/khan/__container/khan__container.css);
+@import url(../content/khan/__quote/khan__quote.css);
+@import url(../content/khan/__quote-author/khan__quote-author.css);
+@import url(../content/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../content/khan/__title/khan__title.css);

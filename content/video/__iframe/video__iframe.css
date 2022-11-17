@@ -1,0 +1,11 @@
+.video__iframe {
+  border: 0;
+}
+
+.video__iframe:first-child {
+  padding-right: 10px;
+}
+
+.video__iframe:last-child {
+  padding-left: 10px;
+}
