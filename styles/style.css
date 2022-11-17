@@ -1,19 +1,20 @@
-.page {
+/*.page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
+  !* мы ещё не умеем делать мобильную версию сайта, *!
+  !* поэтому выше установлена минимальная ширина страницы *!
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
+  !* выше установили ограничение по максимальной ширине *!
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
+  !* выше для экранов больше 1600px отцентрировали весь контент *!
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .border {
   border: 1px solid red;
-}
+}*/
 /*header*/
 
+/*
 .header {
   display: flex;
   position: relative;
@@ -21,7 +22,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
+  !* выше установили ограничения для секции *!
 }
 
 .logo {
@@ -45,12 +46,12 @@
   padding-left: 64px;
   line-height:96px;
   font-size: 102px;
-  font-weight: 600; /*ничего не изменилось нужно подумать*/
+  font-weight: 600; !*ничего не изменилось нужно подумать*!
   width:730px;
   z-index: 3;
 }
 
-.header__subtitle{
+.header__subtitle {
   color: #000000;
   position: absolute;
   left: 64px;
@@ -87,7 +88,7 @@
   background-color: #2f80ed;
   z-index: 0;
 }
-/*description*/
+!*description*!
 
 .description{
   display: flex;
@@ -139,7 +140,7 @@
   font-weight: 600;
 }
 
-/*digits*/
+!*digits*!
 
 .digits {
   display: flex;
@@ -200,7 +201,7 @@
 }
 
 
-/*feynman*/
+!*feynman*!
 
 .feynman {
   display: flex;
@@ -243,7 +244,7 @@
   right: 48px;
 }
 
-/*kaufman*/
+!*kaufman*!
 
 .kaufman {
   overflow: hidden;
@@ -300,7 +301,7 @@
   z-index: 0;
 }
 
-/*footer*/
+!*footer*!
 
 .footer{
   background-color: #1f1f1f;
@@ -367,3 +368,7 @@
   align-items:center;
   padding-right: 10px;
 }
+*/
+
+
+

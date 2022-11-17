@@ -1,0 +1,7 @@
+.footer {
+  background-color: #1f1f1f;
+  display: flex;
+  box-sizing: border-box;
+  min-height : 350px;
+  position: relative;
+}
