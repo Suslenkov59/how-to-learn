@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css"> <!--удалить-->
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -17,7 +15,7 @@
         <a class="header__link" href="#">Узнать &rarr;</a>
       </h2>
       <img class="header__main-illustration" alt="картина опять двойка" src="./images/header-image.png">
-      <div class="header__square-pic header__rotation"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -41,23 +39,23 @@
           </li>
           <li class="cards__item">
             <img class="cards__image" src="./images/images_sprint-2/cards-recall.png" alt="статуя">
-            <h4 class="cards__title">Два вида понимания</h4>
-            <p class="cards__description">Глубокие значения возникают, если чередовать сфокусированное и рассеянное мышление</p>
+            <h4 class="cards__title">Recall</h4>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </li>
           <li class="cards__item">
             <img class="cards__image" src="./images/images_sprint-2/cards-interliving.png" alt="мост">
-            <h4 class="cards__title">Два вида понимания</h4>
-            <p class="cards__description">Глубокие значения возникают, если чередовать сфокусированное и рассеянное мышление</p>
+            <h4 class="cards__title">Интерливинг</h4>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </li>
           <li class="cards__item">
             <img class="cards__image" src="./images/images_sprint-2/cards-question.png" alt="комната">
-            <h4 class="cards__title">Два вида понимания</h4>
-            <p class="cards__description">Глубокие значения возникают, если чередовать сфокусированное и рассеянное мышление</p>
+            <h4 class="cards__title">Вопросы</h4>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </li>
           <li class="cards__item">
             <img class="cards__image" src="./images/images_sprint-2/cards-competence.png" alt="много книг">
-            <h4 class="cards__title">Два вида понимания</h4>
-            <p class="cards__description">Глубокие значения возникают, если чередовать сфокусированное и рассеянное мышление</p>
+            <h4 class="cards__title">Иллюзия компетентности</h4>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </li>
           <li class="cards__item"></li>
         </ul>
@@ -128,16 +126,16 @@
         <h2 class="khan__author">Саламан Хан</h2>
         <h3 class="khan__title">Весь мир - школа</h3>
         <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-        <p class="khan__quote-author">Джордж Лукас</p>
-        <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+        <h4 class="khan__quote-author">Джордж Лукас</h4>
+        <h5 class="khan__quote-author-subline">Кинорежиссер, продюсер</h5>
         <div class="khan__book-container">
           <img class="khan__book-pic" src="./images/khan-book.jpg" alt="книга Весь мир - школа">
-          <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
+          <a class="khan__buy-link" href="https://www.ozon.ru/product/ves-mir-shkola-preobrazovannoe-obrazovanie-162999126/?sh=034u2gqUhQ&utm_campaign=productpage_link&utm_medium=share_button&utm_source=smm">Купить книгу &rarr;</a>
         </div>
         </div>
       </section>
       <section class="kaufman">
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
         <ul class="table table_theme_dark">
@@ -182,6 +180,16 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
+      </section>
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+        <div class="resources__logo-zone">
+          <a href="https://arzamas.academy/" class="resources__link"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="логотим протала arzamas"></a>
+          <a href="https://nplus1.ru/" class="resources__link"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="логотим протала n+1"></a>
+          <a href="#" class="resources__link"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="логотим протала strelka"></a>
+          <a href="https://polka.academy/" class="resources__link"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="логотим протала polka"></a>
+        </div>
       </section>
     </main>
     <footer class="footer">
