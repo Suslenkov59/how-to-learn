@@ -39,5 +39,5 @@
 ---
 <div align="center">
   <img src="http://github-readme-streak-stats.herokuapp.com?user=Suslenkov59&hide_border=true&locale=ru">
-</div>  
+</div>
 
