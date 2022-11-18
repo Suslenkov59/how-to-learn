@@ -37,5 +37,7 @@
 - Расширить возможности сайта с помощю JavaScript (пока нет конретной цели, буду отталкиваться идеи)
 
 ---
+<div>
+  <img src="http://github-readme-streak-stats.herokuapp.com?user=Suslenkov59&hide_border=true&locale=ru">
+</div>  
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Suslenkov59&hide_border=true&locale=ru)](https://git.io/streak-stats)
