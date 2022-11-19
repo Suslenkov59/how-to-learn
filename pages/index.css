@@ -4,13 +4,14 @@
 @import url(../content/root/root.css);
 /*rotation*/
 @import url(../content/rotation/rotation.css);
-/*description*/
+/*__description*/
 @import url(../content/description/description.css);
-@import url(../content/description/two-columns/two-columns.css);
-@import url(../content/description/two-columns/__brief/two-columns__brief.css);
-@import url(../content/description/two-columns/__main-text/two-columns__main-text.css);
-@import url(../content/description/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../content/description/two-columns/__span-accent/two-columns__span-accent.css);
+/*two-columns*/
+@import url(../content/two-columns/two-columns.css);
+@import url(../content/two-columns/__brief/two-columns__brief.css);
+@import url(../content/two-columns/__main-text/two-columns__main-text.css);
+@import url(../content/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../content/two-columns/__span-accent/two-columns__span-accent.css);
 /*digits*/
 @import url(../content/digits/digits.css);
 @import url(../content/digits/section-subtitle/section-subtitle.css);
@@ -54,11 +55,12 @@
 @import url(../content/kaufman/table/_theme_dark/table_theme_dark.css);
 /*techniques*/
 @import url(../content/techniques/techniques.css);
-@import url(../content/techniques/cards/cards.css);
-@import url(../content/techniques/cards/__image/cards__image.css);
-@import url(../content/techniques/cards/__item/cards__item.css);
-@import url(../content/techniques/cards/__title/cards__title.css);
-@import url(../content/techniques/cards/description/cards__description.css);
+/*cards*/
+@import url(../content/cards/cards.css);
+@import url(../content/cards/__image/cards__image.css);
+@import url(../content/cards/__item/cards__item.css);
+@import url(../content/cards/__title/cards__title.css);
+@import url(../content/cards/__description/cards__description.css);
 /*video*/
 @import url(../content/video/video.css);
 @import url(../content/video/__iframe/video__iframe.css);
